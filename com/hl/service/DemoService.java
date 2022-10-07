@@ -8,6 +8,7 @@ public class DemoService {
     }
 
     public String toLowerCase(String str){
+        str += "prefix";
         return str.toLowerCase();
     }
 
