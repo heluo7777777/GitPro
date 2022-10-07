@@ -13,6 +13,7 @@ public class DemoService {
     }
 
     public String concatStr(String sourceStr, String targetStr){
+        sourceStr += "he";
         return sourceStr + targetStr;
     }
 }
