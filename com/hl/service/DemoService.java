@@ -3,6 +3,7 @@ package com.hl.service;
 public class DemoService {
 
     public String toUpperCase(String str){
+        str += "suffix";
         return str.toUpperCase();
     }
 
